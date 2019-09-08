@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+/*清除所有元素自带边框*/
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select,td{margin:0;padding:0;}
+/*长单词换行*/
+body{font:12px  "宋体"; word-wrap:break-word;}
+fieldset ,a img,.bor0 {border:0;}
+i,em,b{font-style:normal;font-weight:100;}
+/*清除超链接，下划线。删除线下划线*/
+a,u,s,del{color:#000;text-decoration:none}
+/*让行内块和右边的元素对齐，只能给img用*/ 
+img{vertical-align:middle;}
+/*首行缩进两个字母 记得加clas*/
+.ind2{text-indent:2em;}
+/*禁止拖动*/
+textarea{resize:none;}
+table{border-collapse:collapse;}
+/*清除li前面的原点*/
+li{list-style:none;}
+/*清除a标签的下划线*/
+a{text-decoration:none;}
+/*溢出隐藏*/
+.over{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+/*图片垂直对齐*/
+.valign{text-align:center;}
+.valign img{vertical-align:middle;}
+.valign:after{content:"";display:inline-block;vertical-align:middle;height:100%;}
+
+/*万能清除法*/
+.clear:both{content:"";display:table;}/*阻止margin-top向上传递*/
+.clear:after{content:"";display:block;clear:both;}/*清除浮动*/
+
+.flexc{justify-content:center;align-items:center;display:flex;}
