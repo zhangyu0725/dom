@@ -21,10 +21,21 @@ okte.onmouseout = function(){
 
 
 
-// var obtnl = document.querySelector(".btnl");
-// obtnl.onclick = function(){
-//     console.log(1)
-// } 
+
+class Block{
+    constructor(){
+        this.display()
+    }
+    display(){
+        $(".ls1").hover(()=>{
+            $(".cate1").css({display:"block"})
+        },()=>{
+            $(".cate1").css({display:"none"})
+        })
+    }
+}
 
 
+
+new Block()
 

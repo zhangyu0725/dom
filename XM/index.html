@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/public.css">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="./dist/css/swiper.min.css">
 
 </head>
 <body>
@@ -61,31 +62,24 @@
         </div>
     </div>
     <div id="banner">
-        <ul>
-            <li><a href="#"><img src="./images/lun5.jpg"></a></li>
-            <li><a href="#"><img src="./images/lun.jpg"></a></li>
-            <li><a href="#"><img src="./images/lun2.jpg"></a></li>
-            <li><a href="#"><img src="./images/lun3.jpg"></a></li>
-            <li><a href="#"><img src="./images/lun4.jpg"></a></li>
-            
-        </ul>
-        <ol class="bannerbtn">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ol>
-        <div>
-            <button class="btnl btnbanner"><img src="./images/zj.png"></button>
-            <button class="btnr btnbanner"><img src="./images/you.png"></button>
-        </div>
+            <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide"><a href="#"><img src="./images/lun4.jpg"></a></div>
+                      <div class="swiper-slide"><a href="#"><img src="./images/lun5.jpg"></a></div>
+                      <div class="swiper-slide"><a href="#"><img src="./images/lun2.jpg"></a></div>
+                      <div class="swiper-slide"><a href="#"><img src="./images/lun3.jpg"></a></div>
+                      <div class="swiper-slide"><a href="#"><img src="./images/lun.jpg"></a></div>
+                      
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+            </div>
+       
     </div>
 
-    <div id="cd">
-
-
-    </div>
 
     <div id="nag">
         <div class="margin">
@@ -192,39 +186,56 @@
                 <h2>精品推荐</h2>
             </div>
             <div class="lb">
-                <ul>
-                    <li><a href=""><div class="info"><p class="p1"><img src="./images/jp1.png"></p><p class="p2">享3期免息 晒单赠好礼 </p></div><div class="pz">华为平板 M6 高能版</div><p class="qian">¥2699</p></a></li>
-                    <li><a href=""><div class="info"><p class="p1"><img src="./images/jp2.png"></p><p class="p2">享3期免息 晒单赠好礼 </p></div><div class="pz">华为平板 M6 高能版</div><p class="qian">¥2699</p></a></li>
-                    <li><a href=""><div class="info"><p class="p1"><img src="./images/jp3.png"></p><p class="p2">享3期免息 晒单赠好礼 </p></div><div class="pz">华为平板 M6 高能版</div><p class="qian">¥2699</p></a></li>
-                    <li><a href=""><div class="info"><p class="p1"><img src="./images/jp4.png"></p><p class="p2">享3期免息 晒单赠好礼 </p></div><div class="pz">华为平板 M6 高能版</div><p class="qian">¥2699</p></a></li>
-                    <li><a href=""><div class="info"><p class="p1"><img src="./images/jp5.png"></p><p class="p2">享3期免息 晒单赠好礼 </p></div><div class="pz">华为平板 M6 高能版</div><p class="qian">¥2699</p></a></li>
-                </ul>
+                <div class="swiper-container2 ">
+                    <div class="swiper-wrapper">
+                            <div class="swiper-slide"><li><a href=""><div class="info"><p class="p1"><img src="./images/jp1.png"></p><p class="p2">享3期免息 晒单赠好礼 </p></div><div class="pz">华为平板 M6 高能版</div><p class="qian">¥2699</p></a></li></div>
+                            <div class="swiper-slide"><li><a href=""><div class="info"><p class="p1"><img src="./images/jp2.png"></p><p class="p2">享3期免息 晒单赠好礼 </p></div><div class="pz">华为平板 M6 高能版</div><p class="qian">¥2699</p></a></li></div>
+                            <div class="swiper-slide"> <li><a href=""><div class="info"><p class="p1"><img src="./images/jp3.png"></p><p class="p2">享3期免息 晒单赠好礼 </p></div><div class="pz">华为平板 M6 高能版</div><p class="qian">¥2699</p></a></li></div>
+                            <div class="swiper-slide"> <li><a href=""><div class="info"><p class="p1"><img src="./images/jp4.png"></p><p class="p2">享3期免息 晒单赠好礼 </p></div><div class="pz">华为平板 M6 高能版</div><p class="qian">¥2699</p></a></li></div>
+                            <div class="swiper-slide"> <li><a href=""><div class="info"><p class="p1"><img src="./images/jp5.png"></p><p class="p2">享3期免息 晒单赠好礼 </p></div><div class="pz">华为平板 M6 高能版</div><p class="qian">¥2699</p></a></li></div>
+                            <div class="swiper-slide"> <li><a href=""><div class="info"><p class="p1"><img src="./images/jp1.png"></p><p class="p2">享3期免息 晒单赠好礼 </p></div><div class="pz">华为平板 M6 高能版</div><p class="qian">¥2699</p></a></li></div>
+                            <div class="swiper-slide"> <li><a href=""><div class="info"><p class="p1"><img src="./images/jp3.png"></p><p class="p2">享3期免息 晒单赠好礼 </p></div><div class="pz">华为平板 M6 高能版</div><p class="qian">¥2699</p></a></li></div>
+                            <div class="swiper-slide"> <li><a href=""><div class="info"><p class="p1"><img src="./images/jp4.png"></p><p class="p2">享3期免息 晒单赠好礼 </p></div><div class="pz">华为平板 M6 高能版</div><p class="qian">¥2699</p></a></li></div>
+                            <div class="swiper-slide"> <li><a href=""><div class="info"><p class="p1"><img src="./images/jp2.png"></p><p class="p2">享3期免息 晒单赠好礼 </p></div><div class="pz">华为平板 M6 高能版</div><p class="qian">¥2699</p></a></li></div>
+                            <div class="swiper-slide"> <li><a href=""><div class="info"><p class="p1"><img src="./images/jp5.png"></p><p class="p2">享3期免息 晒单赠好礼 </p></div><div class="pz">华为平板 M6 高能版</div><p class="qian">¥2699</p></a></li></div>
+                            <div class="swiper-slide"> <li><a href=""><div class="info"><p class="p1"><img src="./images/jp2.png"></p><p class="p2">享3期免息 晒单赠好礼 </p></div><div class="pz">华为平板 M6 高能版</div><p class="qian">¥2699</p></a></li></div>
+                            <div class="swiper-slide"> <li><a href=""><div class="info"><p class="p1"><img src="./images/jp2.png"></p><p class="p2">享3期免息 晒单赠好礼 </p></div><div class="pz">华为平板 M6 高能版</div><p class="qian">¥2699</p></a></li></div>
+
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                    <!-- Add Arrows -->
+                  <div class="swiper-button-next2"></div>
+                  <div class="swiper-button-prev2"></div>
+                  </div>
             </div>
         </div>
     </div>
-    <div id="lbg">
+ <div id="lbg">
         <div class="margin">
             <div class="tp"></div>
             <div class="box">
-                <ul>
-                    <li><a href=""><img src="images/gg.jpg"></a></li>
-                    <li><a href=""><img src="images/gg2.jpg"></a></li>
-                    
-                </ul>
+                    <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                              <div class="swiper-slide"><a href=""><img src="images/gg.jpg"></a></div>
+                              <div class="swiper-slide"><a href=""><img src="images/gg2.jpg"></a></div>
+                              <div class="swiper-slide"><a href=""><img src="images/gg3.jpg"></a></div>
+                              <div class="swiper-slide"><a href=""><img src="images/gg4.jpg"></a></div>
+                              <div class="swiper-slide"><a href=""><img src="images/gg5.jpg"></a></div>
+                              <div class="swiper-slide"><a href=""><img src="images/gg6.jpg"></a></div>
+                              <div class="swiper-slide"><a href=""><img src="images/gg7.jpg"></a></div>
+                              <div class="swiper-slide"><a href=""><img src="images/gg9.png"></a></div>
+                              
+                            </div>
+                         
+                           <div class="swiper-pagination"></div>
+                           
+               </div>
+            
             </div>
-            <div class="dian">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
-    </div>
+           
+        </div> 
+     </div>
     <div id="db" class="db">
         <div class="margin">
             <div class="db-d">
@@ -447,7 +458,15 @@
                     </ul>
                 </div>
             </div>
-        </div>
+    </div>
+    <div class="hr-20"></div>
+    <div id="xinren">
+                <div class="margin">
+                    <a href="#">
+                        <img src="./images/xinren.jpg">
+                    </a>
+                </div>
+    </div>
     <div id="bq">
         <div class="margin">
             <div class="dw">
@@ -460,6 +479,7 @@
             </div>
         </div>
     </div>
+    
     <div id="xq">
         <div class="margin">
             <div class="service">
@@ -792,15 +812,44 @@
         </div>
     </div>
 </body>
-<script src="js/sy.js"></script>
 <script src="js/jquery.js"></script>
+<script src="js/sy.js"></script>
+
+<script src="./dist/js/swiper.min.js"></script>
 <script>
 
 
 
+var swiper = new Swiper(".swiper-container", {
+
+spaceBetween: 30,
+centeredSlides: true,
+loop: true,
+autoplay: {
+  delay: 2500,
+  disableOnInteraction: false,
+},
+pagination: {
+  el: '.swiper-pagination',
+  clickable: true,
+},
+navigation: {
+  nextEl: '.swiper-button-next',
+  prevEl: '.swiper-button-prev',
+},
+});
 
 
 
+var swiper = new Swiper('.swiper-container2', {
+      slidesPerView: 5,
+      spaceBetween: 12,
+      slidesPerGroup: 5,
+        navigation: {
+        nextEl: '.swiper-button-next2',
+        prevEl: '.swiper-button-prev2',
+      },
+    });
 
 </script>
 </html>
